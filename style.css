@@ -36,7 +36,8 @@
 }
 body {
   background-color: var(--background);
-  font-size: 16px;
+  font-size: 20px;
+  line-height: 1em;
 }
 html {
   scroll-behavior: smooth;
@@ -102,9 +103,13 @@ p {
   padding: 40px;
   border-radius: 8px;
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 2em;
   color: var(--tertiary);
   margin: 15px;
+}
+footer,
+p {
+  padding: 40px 12px 10px 12px;
 }
 h1,
 h2,
@@ -115,6 +120,7 @@ h5 {
 }
 h1 {
   font-size: 96px;
+  line-height: 1.5;
 }
 h2 {
   font-size: 64px;
@@ -184,9 +190,8 @@ a {
 }
 .form-label {
   font-family: var(--heading-font-family);
-  color: var(--secondary-color);
+  color: var(--tertiary);
   font-size: 22px;
-  line-height: 32px;
 }
 .icon {
   font-size: 40px;
@@ -201,4 +206,8 @@ a {
 }
 .active {
   font-weight: bold;
+}
+.contact-description {
+  color: var(--tertiary);
+  margin: 0px 0px 8px;
 }
