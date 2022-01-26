@@ -20,14 +20,23 @@
     line-height: 2;
     margin-right: 10%;
   }
+  h2 {
+    font-size: 44px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
   .project {
     display: none;
   }
   .logo {
     display: none;
   }
+  .logo-img {
+    display: none;
+  }
   .about-container {
-    max-width: 50%;
   }
   .project-desciption {
     padding: 0;

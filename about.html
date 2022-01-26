@@ -45,10 +45,10 @@
             <a class="nav-links" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-links" aria-current="page" href="work.html">Work</a>
+            <a class="nav-links active" href="about.html">About me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-links" href="about.html">About me</a>
+            <a class="nav-links" aria-current="page" href="work.html">Work</a>
           </li>
           <li class="nav-item">
             <a class="nav-links" href="contact.html">Contact me</a>
@@ -58,34 +58,45 @@
     </nav>
     <br />
     <div class="about-container">
-      <br />
-      <br />
-      <br />
-      <h2>About me</h2>
-      <img
-        src="images/me.png"
-        class="img-fluid-rounded logo-img shadow-lg"
-        alt="Leanne.O"
-      />
-      <h4 class="tag mb-3">
-        Front-end developer and content creator, based in London England
-      </h4>
-      <br />
-      <div>
-        <h5>
-          <i
-            >I am a novice front-end developer, currently seeking opportunities
-            in...I began my journey studying with SheCodes in 2021 where I
-            trained in... I currently have experience with a range of
-            technlogies including advanced knowledge of HTML, CSS and
-            JavaScript.I'm fexible in my work approach and open to travel as
-            well as working remotely. If you like what you see on my page
-            <a class="inline-links" href="about.html#contact">get in touch</a>
-            to work with me !
-          </i>
-        </h5>
-        <br />
+      <div class="row">
+        <div class="col-6">
+          <h2>About me</h2>
+          <img
+            src="images/me.png"
+            class="img-fluid-rounded logo-img shadow-lg"
+            alt="Leanne.O"
+          />
+        </div>
+        <div class="col-6">
+          <div>
+            <h4>
+              Front-end developer and content creator, based in London England
+              <p>
+                I'm a front-end developer currently seeking new opportunities. I
+                began my programming journey studying with SheCodes in 2021 and
+                from there taken extra courses to expand my skilset. I have
+                experience with a range of technlogies and .I'm fexible in my
+                work approach and open to travel as well as working remotely. If
+                you like what you see on my page
+                <a class="inline-links" href="about.html#contact"
+                  >get in touch</a
+                >
+                to work with me !
+              </p>
+            </h4>
+            <br />
+          </div>
+        </div>
       </div>
+      <button
+        onclick="topFunction()"
+        id="myBtn"
+        title="Go to top"
+        style="display: none"
+      >
+        ↑
+      </button>
+      <hr />
       <div class="row">
         <div class="col-sm-4">
           <img src="images/yoga.png" class="img-fluid p-2 shadow rounded" />
@@ -97,6 +108,7 @@
           <img src="images/yogurt.png" class="img-fluid p-2 shadow rounded" />
         </div>
       </div>
+      <hr />
       <h3 class="display-3">Technologies</h3>
       <hr />
       <div class="info row">
@@ -300,8 +312,6 @@
       </div>
       <hr />
 
-      <br />
-      <a href="about.html">back to top </a>
       <footer>
         <div class="row text-center mb-0">
           <p>Created by <strong>Leanne Oyeyemi</strong> 2022</p>
@@ -330,6 +340,7 @@
           </div>
         </div>
       </footer>
+      <script src="src/index.js"></script>
     </div>
   </body>
 </html>
