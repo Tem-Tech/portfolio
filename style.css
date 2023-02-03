@@ -5,7 +5,17 @@
   --tertiary: #a5677a;
   --text: #faecf1;
   --extra: #faf6f1;
-  --highlights: 5px 3px 10px 0.02px rgb(161, 131, 161);
+  --highlights: 5px 3px 10px 0.02px;
+  --gradient: linear-gradient(270deg, #faf5f7 0%, #faf5f7 66.67%, #945dd6 100%);
+}
+:root {
+  --background: #dbd8e3;
+  --primary: #5c5470;
+  --secondary: #352f44;
+  --tertiary: #2a2438;
+  --text: #0a192f;
+  --extra: #64ffda;
+  --highlights: 5px 3px 10px 0.02px rgb(225, 226, 242);
   --gradient: linear-gradient(270deg, #faf5f7 0%, #faf5f7 66.67%, #945dd6 100%);
 }
 @media (max-width: 900px) {
@@ -108,7 +118,7 @@ html {
   text-decoration: none;
   text-transform: capitalize;
   background-color: var(--primary);
-  color: var(--secondary);
+  color: var(--extra);
   box-shadow: var(--highlights);
 }
 p {
@@ -156,9 +166,9 @@ a {
   text-decoration: none;
   text-transform: capitalize;
   border-color: var(--secondary);
-  color: var(--secondary);
+  color: var(--extra);
   background: var(--text);
-  box-shadow: 5px 3px 10px 0.02px #e07b9e;
+  box-shadow: var(--highlights);
 }
 .navLinks:hover {
   background-color: var(--primary);
